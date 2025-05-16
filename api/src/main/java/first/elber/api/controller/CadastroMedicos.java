@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CadastroMedicos {
 
    @PostMapping
-  public void teste(@RequestBody String json) {
-    System.out.println(json);
+  public void teste(@RequestBody DadosCadastroMedico dados) {
+    System.out.println(dados);
   }
 } 
